@@ -80,8 +80,9 @@ DATABASES = {
         'NAME': 'octofit_db',
         'HOST': 'localhost',
         'PORT': 27017,
-    }
+    },
 }
+
 
 # Enable CORS
 INSTALLED_APPS += [
