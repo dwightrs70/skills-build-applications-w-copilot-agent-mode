@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-p+g(1ed*7*(^e7@mn9qtlgmu-1=)d#gu2=t-=^!ivfa-ud_tgi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'opulent-furnicular-8000.app.github.dev']
 
 
 # Application definition
@@ -106,9 +106,6 @@ CORS_ALLOW_HEADERS = [
     'authorization',
     'x-csrftoken',
 ]
-
-# Allow all hosts
-ALLOWED_HOSTS = ['*']
 
 
 # Password validation
